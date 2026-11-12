@@ -1,0 +1,20 @@
+{
+    "webserver_port": 8080,
+    "mattermost_slash_command_token": "y7pb3g14i7dd3po7crsmq7nksw",
+    "mattermost_webhook_url": "http://localhost:8065/hooks/7mpp1u53gtn1jntzabiyjcpnwr",
+    "db_path": "locker.db",
+    "timezone": "EST",
+    "audit_default_limit": 10,
+    "audit_max_limit": 100,
+    "expiry_check_interval": "5s",
+    "locks": [
+        {
+            "name": "lock1",
+            "timeout": "24h"
+        },
+        {
+            "name": "lock3",
+            "timeout": "15m"
+        }
+    ]
+}
